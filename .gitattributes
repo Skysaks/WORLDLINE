@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
+dist/*.html linguist-generated=true
+src/vendor/** linguist-vendored=true

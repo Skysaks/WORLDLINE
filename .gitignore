@@ -1,4 +1,21 @@
+# Dépendances
+node_modules
+
+# Sorties de tests et site préparé pour gh-pages
+test-results/
+playwright-report/
+blob-report/
+_site/
+
+# Termes personnels du contrôle de confidentialité (jamais publiés)
+.prive-termes.txt
+
+# Systèmes, éditeurs, secrets
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.swp
 *.log
-node_modules/
+.env
+.env.*

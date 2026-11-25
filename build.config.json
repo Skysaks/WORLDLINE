@@ -1,0 +1,90 @@
+{
+  "name": "WORLDLINE",
+  "repo": "Skysaks/WORLDLINE",
+  "lang": "fr",
+  "budgetKo": 900,
+  "pages": [
+    {
+      "prebuilt": true,
+      "out": "dist/worldline.html",
+      "site": "index.html",
+      "e2e": {
+        "ready": "#root button",
+        "flows": [
+          {
+            "name": "partie rapide",
+            "steps": [
+              {
+                "click": "button.btn.pri",
+                "wait": 3000
+              }
+            ]
+          },
+          {
+            "name": "tutoriel passé, partie en cours",
+            "steps": [
+              {
+                "click": "button.btn.pri",
+                "wait": 1500
+              },
+              {
+                "click": ":text('Passer et jouer')",
+                "wait": 5000
+              }
+            ]
+          },
+          {
+            "name": "rejouer l'histoire",
+            "steps": [
+              {
+                "click": "button.btn.hist",
+                "wait": 1500
+              }
+            ]
+          },
+          {
+            "name": "progression, aide et réglages",
+            "steps": [
+              {
+                "click": "button.btn.grow >> nth=3",
+                "wait": 800
+              },
+              {
+                "press": "Escape"
+              }
+            ]
+          }
+        ]
+      },
+      "captures": {
+        "wait": 3000,
+        "desktop": [
+          {
+            "click": "button.btn.pri",
+            "wait": 2500
+          },
+          {
+            "click": ":text('Passer et jouer')",
+            "wait": 6000
+          }
+        ],
+        "mobile": [
+          {
+            "click": "button.btn.pri",
+            "wait": 2500
+          },
+          {
+            "click": ":text('Passer et jouer')",
+            "wait": 6000
+          }
+        ]
+      }
+    }
+  ],
+  "card": {
+    "kicker": "Jeu de stratégie · crises mondiales",
+    "tagline": "Une planète, des milliards de décisions. Chaque crise change les règles.",
+    "background": "#07111C",
+    "accent": "#3FB8D8"
+  }
+}

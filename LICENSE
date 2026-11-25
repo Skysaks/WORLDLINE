@@ -1,6 +1,81 @@
-Copyright (c) 2026 Florian Iglesias. All rights reserved.
+WORLDLINE
+Copyright © 2026 Florian Iglesias. Tous droits réservés. / All rights reserved.
 
-This repository is published for portfolio purposes only.
-No permission is granted to use, copy, modify, merge, publish,
-distribute, sublicense or sell any part of it without prior
-written consent of the copyright holder.
+────────────────────────────────────────────────────────────────────────
+FRANÇAIS
+────────────────────────────────────────────────────────────────────────
+
+Ce dépôt n'est pas un logiciel libre. Il est public à titre de portfolio :
+le code source est publié pour être lu et évalué. Aucune licence n'est
+concédée, expressément ou implicitement.
+
+CE QUI EST PERMIS
+
+  1. Lire et étudier le code sur GitHub, et le citer brièvement en
+     indiquant la source.
+  2. Ouvrir la démonstration publiée (GitHub Pages) ou le fichier construit
+     (dist/worldline.html) dans un navigateur, pour l'évaluer à titre personnel.
+
+CE QUI N'EST PAS PERMIS SANS ACCORD ÉCRIT PRÉALABLE
+
+  3. Copier, reproduire ou modifier tout ou partie du code, au-delà de ce
+     que les conditions d'utilisation de GitHub imposent pour un dépôt
+     public (affichage, fork).
+  4. Redistribuer le code ou le fichier construit, modifié ou non.
+  5. L'héberger, le publier ou l'exploiter comme service ou produit, sous
+     ce nom ou sous un autre, à titre commercial ou non.
+  6. Réutiliser le code, les données ou les algorithmes, y compris pour
+     entraîner ou évaluer des modèles d'apprentissage automatique.
+  7. Retirer ou modifier la présente mention de droits.
+
+ABSENCE DE GARANTIE
+
+Le logiciel est fourni « en l'état », sans garantie d'aucune sorte. En
+aucun cas l'auteur ne pourra être tenu responsable d'un dommage découlant
+du logiciel ou de son utilisation.
+
+────────────────────────────────────────────────────────────────────────
+ENGLISH
+────────────────────────────────────────────────────────────────────────
+
+This repository is not open source. It is public for portfolio purposes:
+the source code is published to be read and evaluated. No licence is
+granted, expressly or by implication.
+
+PERMITTED
+
+  1. Reading and studying the code on GitHub, and quoting it briefly with
+     attribution.
+  2. Opening the published demonstration (GitHub Pages) or the built file
+     (dist/worldline.html) in a web browser for personal evaluation.
+
+NOT PERMITTED WITHOUT PRIOR WRITTEN PERMISSION
+
+  3. Copying, reproducing or modifying the code in whole or in part, beyond
+     what GitHub's Terms of Service require for public repositories
+     (viewing, forking).
+  4. Redistributing the code or the built file, modified or not.
+  5. Hosting, publishing or operating it as a service or product, under
+     this name or any other, whether commercial or not.
+  6. Reusing the code, data or algorithms, including to train or evaluate
+     machine-learning models.
+  7. Removing or altering this copyright notice.
+
+NO WARRANTY
+
+The software is provided "as is", without warranty of any kind. In no
+event shall the author be liable for any damages arising from the
+software or its use.
+
+────────────────────────────────────────────────────────────────────────
+COMPOSANTS TIERS / THIRD-PARTY COMPONENTS
+────────────────────────────────────────────────────────────────────────
+
+Les composants suivants, embarqués dans les fichiers construits, gardent
+leur propre licence ; la présente mention de droits ne s'applique pas à
+eux. Textes complets dans docs/licences/.
+The following components, embedded in the built files, keep their own
+licence and are not covered by this notice. Full texts in docs/licences/.
+
+  - React 19 — Copyright (c) Meta Platforms, Inc. and affiliates, MIT License (docs/licences/react-MIT.txt)
+  - Zustand — Copyright (c) 2019 Paul Henschel, MIT License (docs/licences/zustand-MIT.txt)
